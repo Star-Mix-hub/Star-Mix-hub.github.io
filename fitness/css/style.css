@@ -1,0 +1,430 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+ul,li{
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+body{
+margin:0;
+color:#fff;
+font-size:18px;
+}
+
+/* conteiners conteiners cnteiners */
+.container-header{
+    max-width:1447px;
+    padding:0 15px;
+    margin:0 auto;
+} 
+.container{
+    max-width:1200px;
+    padding:0 15px;
+    margin:0 auto;
+}  
+/* containers containers  */
+
+
+/* header hrader header */
+.header{
+    height:100vh;
+    background-image:url(../images/header-log.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center top;
+    position:relative;
+    overflow:hidden;
+    position:relative;
+}
+.logo-menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:42px;
+}
+.menu-mobail{
+    display:none;
+}
+
+.bars-style{
+    font-size:20px;
+    margin-right:40px;
+   
+}
+.close-btn{
+    display:none;
+}
+.close-button{
+   position:absolute;
+   top:20px;
+   right:50px;
+   font-size:20px;
+   
+}
+.list-item{
+    display:flex;
+}
+.list-items{
+    margin-right:60px;
+}
+.list-items:last-child{
+    margin-right:0;
+}
+.items-link{
+     font-size:15px;
+    color:#fff;
+}
+.title-fitness{
+    
+    margin-top:600px;
+}
+.header-title{
+    width:374px;
+    font-size:40px;
+}
+.header-title-span{
+    font-size:18px;
+}
+.red-line{
+    position:absolute;
+    bottom:-10;
+}
+
+/* header header header */
+/* green block */
+.green{
+    background-color:#a2ca28;
+    z-index:5;
+    
+}
+/* RESOURSE TRAINING & FUNDING CONNECT  COMMUNICATE*/
+.info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.info-content{
+    max-width:260px;
+    margin-top:100px;
+}
+.info-picture{
+    margin-bottom:10px;
+}
+.icon-style{
+    font-size:25px;
+}
+.info-title{
+    font-size:20px;
+    margin-bottom:30px;
+}
+.info-text{
+    font-size:14px;
+}
+.info-text-style-two{
+    margin-bottom:40px;
+}
+.info-text-style-three{
+    margin-bottom:29px;
+}
+.info-text-style-fore{
+    margin-bottom:48px;
+}
+.info-button{
+    border:none;
+    background:#a2ca28;
+    color:#fff;
+    margin-top:12px;
+    padding-right:20px;
+}
+.button-info-style{
+    font-size:14px;
+    cursor:pointer;
+}
+/* RESOURSE TRAINING & FUNDING CONNECT  COMMUNICATE*/
+/* text photo in background green */
+/* <<<<<<<< begin>>>>>>> */
+.banner-info-green{
+    margin-top:120px;
+    max-width:1183px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    
+}
+.box-info{
+    text-align:center;
+    max-width:299px;
+    padding:20px 20px 80px;
+    background-color:#fff;
+    
+}
+.info-box-logo{
+    color:#fd634e;
+    font-size:14px;
+   
+}
+
+.info-box-title{
+    font-size:35px;
+    color:#bbd861;
+    margin-top:15px;
+}
+
+.info-box-text{
+    color:#656e74;
+    font-size:15px;
+    margin-top:72px;
+    margin-bottom:50px;
+}
+.button-link{
+    color:#a8ce36;
+    font-size:14px;
+    border-bottom:1px solid #d0e493;
+    margin-bottom:15px;
+}
+
+
+.img-banner{
+    width:734px;
+    height:383px;
+}
+
+                /* <<<<<<^^^^^>>>>>>>> */
+/* text photo in background green */
+/* section red right me */
+.red{
+    background-color:#fd634e;
+}
+/* SIZE IMG IN RED */
+.picture-litle{
+    width:350px;
+    height:333px;
+}
+.picture-big{
+    width:683px;
+    height:333px;
+}
+/* SIZE IMG IN RED */
+.box-red{
+    display:flex;
+    flex-wrap:wrap; 
+}
+.box-little{
+    height:310px;
+    width:350px;
+    padding:50px 40px 80px 20px;
+}
+.big-box{
+    height:310px;
+    width:683px;
+    padding:60px 100px 152px 20px;
+}
+.green-color{
+    background-color:#a2ca28;
+}
+.background{
+    background-color:#fff;
+    color:#656e74;
+}
+.red-color{
+    color:#fd6d5a;
+    margin-bottom:16px;
+}
+.color-logo{
+    color:#a2ca28;
+    margin-bottom:42px;
+    font-size:15px;
+}
+.big-title{
+    margin-bottom:30px;
+}
+.slogan{
+    height:100vh;
+    background-image:url(../images/Shape\ 1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center top;
+    text-align:center;
+}
+
+.slogan-logo{
+    font-size:45px;
+    padding-top:240px;
+   
+}
+
+.slogan-text{
+   margin-top:37px;
+}
+.footer{
+    background-color:#0d1119;
+}
+.box-footer-info{
+    display:flex;
+}
+.resources{
+    max-width:376px;
+    margin-right:50px;
+}
+.footer-title{
+    font-size:15px;
+    margin-bottom:33px;
+}
+.footer-text{
+    font-size:14px;
+    color:#8297a7;
+}
+.AboutUS{
+    max-width:440px;
+    margin-right:35px;
+}
+
+.icon-flex{
+    display:flex;
+    align-items:center;
+}
+.footer-social{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    text-align:center;
+    line-height:3;
+    margin:0 5px;
+}
+.bck-facebook{
+background-color:#2e3192;
+}
+.bck-twitter{
+    background-color:#00aeef;
+}
+.bvk-youtube{
+    background-color:#ed3123;
+}
+.bck-in{
+    background-color:#171a8f;
+}
+.footer-contact{
+    margin-top:50px;
+}
+.contact-inner{
+    display:flex;
+    justify-content:flex-end;
+}
+.input-style{
+border:none;
+padding:20px 100px 12px 20px;
+margin-right:5px;
+}
+.btn-footer{
+    color:#fff;
+    border:none;
+    background-color:#a2ca28;
+    border-radius:10px;
+}
+@media (max-width:1138px){
+    .box-footer-info{
+        flex-wrap:wrap;
+    }
+}
+@media(max-width:1092px){
+    .info{
+        flex-wrap:wrap;
+    }
+    .info-content{
+        margin-top:18px;
+    }
+    .img-banner{
+        width:100%;
+        height:100%;
+    }
+    .picture-litle{
+        width:100%;
+        height:100%;
+    }
+    .picture-big{
+        width:100%;
+        height:100%;
+    }
+    
+}
+@media (max-width:852px){
+        
+    .list-item{
+        flex-direction:column;
+        position:absolute;
+        top:-100%;;
+        right:0;
+        left:0;
+        background-color:#000;
+        text-align:center;
+        height:100vh;
+        transition:all .5s; 
+        
+    }
+    .items-link{
+        display:block;
+        margin:50px 0;
+    }
+    .list-items:last-child{
+        margin-right:60px;
+    }
+    .close-btn{
+        display:block;
+    }
+   
+    .menu-mobail{
+        display:block;
+    }
+    .list-item.active{
+        top:0;
+    }
+    .title-fitness{
+       margin-top:453px;
+   }
+    .red-line{
+       display:none;
+   } 
+   .big-box{
+       height:436px;
+       padding:20px 100px 152px 20px;
+   }
+   
+}
+@media(max-width:800px){
+    .contact-inner{
+        flex-direction:column;
+    }
+    .input-style{
+        padding:10px 40px 10x 0;
+        
+    }
+    .btn-footer{
+        display:inline-block;
+        margin-top:5px;
+    }
+}
+@media(max-width:560px){
+    .info{
+        flex-direction:column;
+    }
+    .info-content{
+    margin-top:30px;
+}
+.box-footer-info{
+    flex-direction:column;
+}
+
+}
+@media(max-width:400px){
+    .header-title{
+        font-size:33px;
+    }
+}
