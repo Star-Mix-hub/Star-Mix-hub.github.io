@@ -1,0 +1,13 @@
+ $(function(){
+ $('.slider-wrapper').slick({
+    arrows:false,
+    dots:true,
+   dotsClass:"sliderdots"
+ }); 
+$('.bars').on('click',function(){
+    $('.menu-list').addClass('active');
+})
+$('.close-menu').on('click',function(){
+    $('.menu-list').removeClass('active');
+    });
+}); 
