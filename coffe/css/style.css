@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+a{
+    text-decoration:none;
+}
+ul,li{
+    list-style:none;
+}
+img{
+    max-width:100%;
+}
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding:0 20px;
+    max-width:1180px;
+    margin: 0 auto;
+}
+.header{
+    z-index:50;
+    background-color:#fff;
+    border-bottom:2px solid#000;
+    box-shadow:1px 1px 20px  #000;
+    position:fixed;
+    right:0;
+    left:0;
+    top:0;
+}
+.header-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 20px 5px 20px;
+}
+.header__nav{
+    display:flex;
+    position:relative;
+}
+.header__nav:after{
+    content:"";
+    position:absolute;
+    width:1px;
+    height:100%;
+    background:#000;
+    right:-110px;
+}
+.header__link{
+    margin-left:10px;
+    font-size:18px;
+    color: #000000;
+}
+.burger{
+    width:30px;
+    height:30px;
+    position:relative;
+    display:none;
+}
+.burger:before,
+.burger:after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:4px;
+    background-color:#000;
+    left:0;
+}
+
+.burger:before{
+    bottom:0;
+}
+.burger:after{
+    top:0;
+}
+.burger span{
+    position:absolute;
+    top:14px;
+    width:100%;
+    height:2px;
+    background-color:#000;
+}
+
+.header__icon{
+    display:flex;
+}
+.header__icon-link{
+    width:20px;
+    margin: 0 15px 0;
+    
+}
+.block-slider{
+    margin-top:100px;
+    position:relative;
+    
+}
+.slider-img{
+    position:relative;
+    width:100%;
+    height:800px;
+    overflow:hidden;
+}
+.slider__title{
+    position:absolute;
+    top:400px;
+    margin-left:100px;
+    font-size:40px;
+    color:#000;
+    
+    
+
+    
+
+    z-index:12;
+}
+.slider__btn{
+    position:absolute;
+    top:450px;
+    margin-left:100px;
+    font-size:20px;
+    padding:20px 40px;
+    background-color:#fff01c;
+    border:3px solid #000;
+}
+
+
+/* soc-link */
+.soc-link{
+    margin:200px 0 0 0;
+    background-image:url(../image/soi[.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top center;
+    min-height:700px;
+}
+.soc__title{
+    position:relative;
+    top:-100px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    border-bottom:2px solid#000;
+    padding:0 0 50px 0;    
+}
+.block-content{
+    max-width:900px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap; 
+}
+.block__link{
+    max-width:400px;
+    padding:10px 40px 20px 50px;
+    border:3px solid#000;
+    border-radius:40px;
+    margin:80px 10px 40px 10px;
+}
+.block__title{
+    font-size:23px;
+    font-weight:bold;
+    text-align:center;
+    margin:20px 0 50px 0;
+}
+.block__text{
+    font-size:18px;
+    font-weight:bold;
+    margin:0 0 20px 0;
+}
+.block__btn{
+    color:#000;
+    padding: 10px 40px;
+    background-color:inherit;
+    border:2px solid #000;
+    border-radius:40px;
+}
+.btn-height{
+    margin:50px 0px 0px  0px;
+}
+.block__eamail{
+    border:3px solid#000;
+    border-radius:40px;
+    padding:20px 10px 20px 10px;
+}
+.email__title{
+    font-size:23px;
+    font-weight:bold;
+}
+.email__text{
+    font-size:18px;
+    font-weight:bold;
+    margin: 0 0 5px 0;
+}
+.email__btn{
+    color:#000;
+    background-color:inherit;
+    border:2px solid #000;
+    border-radius:40px;
+    padding:5px 60px;
+}
+/* manufacturers */
+.manufacturers{
+    margin: 100px 0 50px 0;
+}
+.line{
+    width:100%;
+    margin:50px 0 0 150px;
+    height:2px;
+    background-color:#000;
+}
+.manufacturers__content{
+    margin:50px 0 0 0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.manufacturer-about{
+    max-width:400px;
+    border:1px solid #000;
+    margin:20px 10px 0 10px;
+    box-shadow:10px 10px 10px #000,10px 10px 10px #000;
+    border-radius:20px;
+    padding:10px;
+    
+}
+.manufacturer__about-title{
+    font-size:18px;
+    margin:0 0 15px 0;
+}
+.manufacturer__about-text{
+    font-size:15px;
+}
+/* connection */
+.connection{
+background-image:url(../image/kofe-s-siropom.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center center;
+min-height:700px;
+margin: 170px 0 0 0; 
+}
+.line__connection{
+    margin:50px 0 100px 0;
+    position:relative;
+    top:-100px;
+    text-align:center;
+    width:100%;
+    height:100px;
+    background-color:red;
+}
+.conection__title{
+    padding:50px 0 0 0;
+    font-size:28px;
+    color:#fff;
+}
+.connection__block{
+    display:flex;
+    justify-content: center;
+}
+.connection__logo{
+    max-width:400px;
+    color:#fff;
+    font-size:50px;
+
+}
+.block__inp{
+    max-width:400px;
+}
+.input__enter{
+    border-radius:20px;
+    width:400px;
+    display:inline-block;
+    font-size:20px;
+    padding:5px 20px 5px 20px;
+    margin:10px 0 10px 0;
+    outline:none;
+}
+.btn__connection{
+    width:200px;
+    font-size:15px;
+    color:red;
+    padding:10px 30px;
+    border-radius:40px;
+}
+.footer{
+    padding:50px 0;
+    font-size:20px;
+    
+}
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-icon-block{
+    width:20px;
+    color:#FFF;
+}
+.footer-i{
+   
+}
+.logo__text{
+    font-size:15px;
+}
+.footer__soc{
+    display:flex;
+    
+}
+@media(max-width:765px){
+    .burger{
+        display:block;
+    }
+    .header__nav:after{
+        display:none;
+    }
+    .header__icon{
+        display:none;
+    }
+    
+    
+    .header__nav{
+        display:block;
+        position:fixed;
+        width:100%;
+        margin:0 auto;
+        top:-100%;
+        background-color:#000;
+        height:100%;
+        text-align:center;
+        z-index:30;
+
+        transition:all .5s;
+        
+        
+    }
+    .header__link{
+        color:#fff;
+    }
+    .header__nav li{
+        padding:30px 0  0px 0;
+    }
+    .header__nav.active{
+        top:80px;
+    }
+    .slider-img{
+        height:600px;
+    }
+}
+@media(max-width:500px){
+    .header__logo img{
+        width:50px;
+    }
+    .block-slider{
+        margin-top:70px;
+    }
+    .slider__title{
+        font-size:31px;
+        top:211px;
+    }
+    .slider__btn{
+        top:414px;
+        margin-left:70px;
+    }
+    .soc__title{
+        font-size:18px;
+    }
+    .block__link{
+        max-width:350;
+        padding:10px 23px 20px 35px;
+    }
+    .block__text{
+        font-size:16px;
+    }
+    .email__btn{
+        display:none;
+    }
+    .line{
+        display:none;
+    }
+    .manufacturers__content{
+        
+    }
+    .manufacturer-about{
+        width:50%;
+    }
+    .manufacturer__about-title{
+        font-size:15px;
+    }
+    .connection__block{
+        flex-direction:column;
+    }
+    .connection__logo{
+        font-size:45px;
+    }
+    .input__enter{
+        width:324px;
+        font-size:17px;
+    }
+    .footer-content{
+        flex-direction:column;
+    }
+}
