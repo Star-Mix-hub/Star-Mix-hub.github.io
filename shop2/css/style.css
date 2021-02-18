@@ -1,0 +1,395 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+*::before,
+*::after{
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+a{
+    text-decoration:none;
+    
+}
+ul,li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+img{
+    max-width:100%;
+    height:100%;
+}
+.nav__icons{
+    width:20px;
+}
+body{
+    margin:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.nav {
+    padding:40px 0;
+}
+.container {
+    max-width:1200px;
+    padding:0 20px;
+    margin:0 auto;
+}
+.nav__row {
+    display:flex;
+    justify-content:space-between;
+}
+.nav__logo {
+    font-size:28px;
+    line-height:38px;
+    color:#000;
+}
+.nav__list{
+    display:flex;
+} 
+.nav__item {
+    margin-right:30px;
+}
+.nav__item:last-child{
+    margin-right:0;
+}
+.nav__lin {
+    color:#000;
+}
+.nav__lin:hover{
+    color:#ff0000;
+}
+.nav__card {
+    display:flex;
+}
+.menu__burger{
+    width:30px;
+    height:20px;
+    display:none;
+    position:relative;
+}
+.menu__burger::before,
+.menu__burger::after{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:2px;
+    background-color:#000;
+}
+.menu__burger span{
+    position:absolute;
+    width:100%;
+    height:2px;
+    background-color:#000;
+    top:9px;
+}
+.menu__burger::before{
+    top:0;
+}
+.menu__burger::after{
+    bottom:0;
+}
+.nav__icons {
+    margin: 0 5px;
+}
+.nav__cart-link{
+    position:relative;
+}
+.nav__card-number{
+    position:absolute;
+    top:-10px;
+    right:0;
+    width:15px;
+    height:15px;
+    color:#fff;
+    font-weight:bold;
+    font-size:10px;
+    border-radius:50%;
+    background-color:#ff0000;
+}
+/* header */
+.header__row{
+    display:flex;
+    justify-content:flex-end;
+    position:relative;
+}
+.header__content{
+    position:absolute;
+    left:0;
+    background-color:#ff0000;
+    height:250px;
+    max-width:600px;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:end;
+}
+.header__title{
+    font-size:72px;
+}
+.header__text{
+    font-size:22px;
+    margin-bottom:40px;
+}
+.btn{
+    height:51px;
+    background-color:#ca0202;
+    border-radius:4px;
+    font-size:26px;
+    color:#fff;
+    padding:0 33px;
+}
+/* featured */
+.section__header{
+    margin-bottom:40px;
+}
+.section-header__title{
+    font-size:42px;
+    text-align:center;
+}
+.products__wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    row-gap:20px;
+}
+.product{
+    display:inline-block;
+    border:2px solid #000;
+    border-radius:20px;
+    width:270px;
+    
+    text-align:center;
+    margin-bottom: 40px;
+    overflow:hidden;
+}
+.products-img{
+    width:100%;
+    height:100%;
+}
+.product__img{
+    max-width:300px;
+    transition:.5s;
+    height:300px;
+}
+.product__img:hover{
+    transform:scale(1.1);
+}
+.product__title{
+    font-size:20px;
+    margin-bottom:12px;
+}
+.product__btn{
+    text-align:center;
+    font-size:12px;
+    background-color:#ff0000;
+    padding:5px 10px;
+    cursor:pointer;
+}
+.section__button-wrapper{
+    text-align:center;
+    margin-top:75px;
+    
+}
+.info-section__row{
+    position:relative;
+    z-index:1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.button__outline{
+    border:1px solid #ff0000;
+    display:inline-block;
+    padding:9px 40px 12px;
+    font-size:16px;
+    color:#000;
+
+}
+.button__outline:hover{
+    background:#ff0000;
+
+    
+}
+.info-section{
+    background:url(../image/banner-fon.jpg);
+    margin-top:20px;
+    background-position:center;
+    position:relative;
+    padding:68px 0;
+    margin-bottom:40px;
+}
+.info-section::before{
+    position:absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.75);
+    z-index:0;
+}
+.info-section-title{
+    font-size:52px;
+    color:#fff;
+}
+/* section blog */
+.blog{
+padding:90px 0 45px;
+
+}
+.post__img{
+    width:100px;
+    height:100px;
+}
+.posts__wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    row-gap:40px;
+    flex-grow:1;
+}
+.post{
+    max-width:570px;
+    display:flex;
+    justify-content:space-between;
+}
+.post__content{
+    max-width:370px;
+
+}
+.post__title{
+    font-size:20px;
+    line-height:27px;
+    margin-bottom:10px;
+}
+.post__text{
+    font-size:14px;
+    color:#777;
+    margin-bottom:10px;
+}
+.post__read-more{
+    font-size:16px;
+    line-height:21px;
+    color:#000;
+    position:relative;
+}
+.post__read-more::after{
+    position:absolute;
+    content:"";
+    width:20px;
+    height:20px;
+    right:-20px;
+    bottom:0;
+    background:url(../image/icon/tshirt-solid.svg) no-repeat;
+}
+.post__read-more:hover{
+    text-decoration:underline;
+    color:#ff0000;
+}
+/* subscribe */
+.subsribe{
+    padding:45px 0 100px;
+
+}
+.subscribe-form{
+    display:flex;
+    justify-content:center;
+}
+.subscribe-form__input{
+    border:none;
+    border-bottom:1px solid #ff0000;
+    height:42px;
+    width:230px;
+    font-size:16px;
+    outline:none;
+
+}
+.subscribe-form__submit{
+    height:42px;
+    padding:10px 30px;
+    background:#ff0000;
+    border:none;
+    border-radius:30px;
+    color:#fff;
+}
+/* /////////////////////subscribe */
+/* footer */
+.footer{
+    background:#ff0000;
+    padding:40px 0 40px;
+    color:#fff;
+}
+.footer__content{
+    display:flex;
+    justify-content:space-between;
+}
+.footer__link{
+    font-size:20px;
+    color:#000;
+}
+/* //////////////footer */
+@media(max-width:992px){
+    
+    .menu__burger{
+        display:block;
+    }
+    a.nav__log{
+    margin-right:83px;
+    }
+    .nav__list{
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        width:200px;
+        background-color:#000;
+        display:none;
+    } 
+    .nav__list__active{
+        display:block;
+        z-index:11;
+    }
+    .nav__lin{
+        color:#fff;
+        display:block;
+        padding:15px 0;
+    }
+}
+@media(max-width:580px){
+    .header__content{
+        right:0;
+        left:0;
+        text-align:center;
+        height:150px;
+    }
+    .header__title{
+        font-size:24px;
+    }
+    .header__text{
+        font-size:18px;
+    }
+    .product{
+        margin:0 auto;
+    }
+    .info-section__row{
+        flex-direction:column;
+    }
+    .info-section-title{
+        font-size:28px;
+        margin-bottom:20px;
+    }
+    .post{
+        flex-direction:column;
+        text-align:center;
+    }
+    .post__img{
+        margin: 0 auto;
+    }
+    .section-header__title{
+        font-size:30px;
+    }
+}
