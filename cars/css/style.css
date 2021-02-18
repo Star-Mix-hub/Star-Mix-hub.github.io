@@ -1,0 +1,410 @@
+*,
+*::after,
+*::before{
+    box-sizing:border-box;    
+}
+a{
+    text-decoration:none;
+}
+img{
+    max-width:100%;
+    margin: 0;
+}
+body{
+    margin: 0;
+    color:#1b1818;
+    font-size:16px;
+
+}
+.container{
+    max-width:1220px;
+    padding:0 10px;
+    margin: 0 auto;
+}
+.header{
+    height:100px;
+}
+.header__inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.menu__list{
+    display:flex;
+    list-style:none;
+
+}
+.menu__item{
+    margin: 0 15px;
+}
+.menu__list-link{
+    text-transform:uppercase;
+    color:#000;
+    font-size:18px;
+    padding-bottom:5px;
+    transition: .5s;
+    border-bottom:1px solid transparent;
+}
+.menu__list-link:hover{
+    border-bottom:1px solid #000;
+}
+.phone{
+    font-size:18px;
+    color:#000;
+}
+.top{
+    padding-bottom:100px;
+}
+.top__heding{
+    display:flex;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+.top__content{
+    padding-top:90px;
+    text-align:center;
+    width:50%;
+}
+.top__slider{
+    width:50%;
+}
+.top__title{
+    font-size:48px;
+    font-weight:500;
+    line-height:58px;
+    margin: 0 auto 20px;
+    max-width:455px; 
+}
+.top__text{
+    font-size:24px;
+    line-height:28px;
+    margin:0 auto 68px;
+     max-width:470px;  
+    
+}
+.aplication__btn{
+    color:#fff;
+    background-color:#000;
+    padding:16px 19px 15px;
+    transition:.5s;
+}
+.aplication__btn:hover{
+    background:#fff;
+    color:#000;
+    BORDER:1PX SOLID #000;
+}
+.slick-dots{
+    list-style:none;
+}
+.top__slider .slick-dots{
+    position:absolute;
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+}
+.slick-dots button{
+    font-size:0;
+    width: 8px;
+    height: 8px;
+    background-color:#000;
+    border:none;
+    border-radius:50%;
+    padding:0;
+    margin: 0 auto;
+}
+.slick-active button{
+    width: 16px;
+    height: 16px;
+}
+.top__items{
+    width:50%;
+    display:flex;
+    justify-content:space-around;
+}
+.top__bottom{
+    display:flex;
+    align-items:flex-end;
+    
+}
+.top__item{
+    background-color:#000;
+    color:#fff;
+    padding:10px;
+    width: 150px;
+    height: 150px;
+    cursor:pointer;
+    transition:.5s;
+}
+.top__item:hover{
+    transform:scale(1.25);
+}
+.top__link{
+    color:#000;
+
+}
+.rent{
+    padding:100px 0;
+}
+.rent__inner{
+    display:flex;
+    justify-content:space-between;
+}
+.rent__content{
+    width:300px;
+}
+.rent__title{
+    font-size:24px;
+    font-weight:500;
+    color:#000;
+    margin-bottom:30x;
+}
+.rent__text{
+    margin-bottom:20px;
+}
+.rent__text + .rent__text{
+    margin-bottom:40px;
+}
+.rent__item{
+    border:4px solid #40e231;
+    width:150px;
+    padding:10px 30px;
+    color:#fff;
+    background-color:#000;
+}
+.benefits{
+    padding:100px 0;
+}
+.benefits__title{
+    font-size:24px;
+    font-weight:500;
+    text-align:center;
+    margin-bottom:50px;
+}
+.benefits__items{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.benefits__list{
+    width:500px;
+    list-style:none;
+}
+.benefits__list-item{
+    margin-bottom:20px;
+    text-align:right;
+}
+.arrows{
+    margin-left:10px;
+}
+.benefits__list-left{
+    margin-right:50px;
+}
+.reviews{
+    padding: 100px 0;
+    background-color:#1b1818;
+    color:#fff;
+
+}
+.reviews__title{
+    text-align:center;
+    font-size:24px;
+    font-weight:500;
+}
+.reviews__item{
+    border:1px solid #fff;
+    padding:45px 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-radius:0 40px 0 40px;
+    background-color:#000;
+    width:270px;
+    min-height:300px;
+    text-align:center;
+    margin-right:30px;
+
+}
+.reviews__slider .slick-dots button{
+    background-color:#fff;
+    margin: 0 5px;
+}
+.reviews__slider .slick-dots{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.reviews__item-name{
+    font-size:24px;
+    font-weight:500;
+}
+.registrationpadding{
+    padding:100px 0;
+}
+.registration__inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.registration__form{
+    width:415px;
+    margin: 0 auto;
+}
+.registration__title{
+    font-size:24px;
+    margin-bottom:30px;
+}
+.registration__input{
+    display:block;
+    padding:20px 0;
+    width:100%;
+    border:none;
+    border-bottom:1px solid #000;
+}
+.registration__button{
+    text-transform:uppercase;
+    color:#fff;
+    background:#000;
+    display:inline-block;
+    padding:16px 36px 16px;
+    margin-top:50px;
+}
+.registration__button:hover{
+    background:#fff;
+    color:#000;
+
+}
+.footer{
+    padding:50px 0;
+    background:#000;
+    color:#fff;
+}
+.footer__inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer__content{
+    display:flex;
+    font-size:24px;
+}
+.location__link{
+    color:#fff;
+}
+.footer__link-location{
+    display:flex;
+    flex-direction: column;
+    margin-right:20px;
+    
+}
+.footer__link-cars{
+    display:flex;
+    flex-direction: column;
+}
+.link__cars{
+    color:#fff;
+}
+.button__btn{
+    display:none;
+}
+.button__btn{
+    width:30px;
+    height:30px;
+    position:relative;
+}
+.button__btn::before,
+.button__btn::after{
+content:"";
+position:absolute;
+left:0;
+width:100%;
+background:#000;
+height:2px;
+}
+.button__btn::before{
+    top:0;
+}
+.button__btn::after{
+    bottom:0;
+}
+.line{
+    position:absolute;
+    left:0;
+    width:100%;
+    background:#000;
+    top:14px;
+    height:2px;
+}
+.menu__list.menu__list-active{
+    transform:translateY(0px);
+
+}
+
+@media (max-width: 970px){
+    .menu__list{
+        display:block; 
+        position:absolute;
+        top:100px;
+        left:0;
+        right:0;
+        text-align:center;
+        transform:translateY(-600px);
+    }
+    
+    .menu__list-link{
+        padding:20px 0;
+        display:block;
+    }
+    
+        .button__btn{
+        display:block;
+    }
+    .rent__inner{
+        flex-wrap:wrap;
+    }
+    .rent__item{
+        margin-top:20px;
+        width:100%;
+    }
+    .benefits__items{
+        display:block;
+    }
+    .benefits__list{
+        width:240px;
+    }
+    .registration__inner{
+        display:block;
+    }
+    .registration__form{
+        width:235px;
+    }
+
+
+
+}
+@media(max-width:964px){
+    .top__heding{
+        display:block;
+    }
+    .top__content{
+        width:100%;
+        
+    }
+    .top__slider{
+        width:100%;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+    .phone{
+        display:none;
+    }
+    .top__bottom{
+        display:block;
+    }
+    .top__items{
+        width:100%;
+    }
+    @media(max-width:576px){
+        .top__items{
+            flex-wrap:wrap;
+    }
+}
