@@ -1,0 +1,152 @@
+.price{
+    background-color:#c6fc05;
+    
+}
+.price-blokc-mobail-eyelashes-container{
+    background-color:#e6dddd;
+    max-width:344px;
+    padding:20px;
+    display:none;
+}
+.eyelashes__mobail-item-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom:20px;
+
+}
+
+.eyelashes__mobail-item-block{
+    display: flex;
+    align-items:center;
+    // justify-content:space-between;
+    margin-bottom:20px;
+    
+}
+.eyelashes__mobail-item-description{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position:relative;
+    flex-grow: 1;
+    &:after{
+        content:"";
+        position:absolute;
+        width:100%;
+        height:1px;
+        background:#000;
+        right:0;
+        bottom:0;
+    }
+    
+}
+.price-subtitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.eyelashes__box{
+    background:#e6dddd;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 0;
+    border-radius:10px;
+    
+}
+.eyelashes__box-master-price-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.eyelashes__box-description-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top:20px;
+
+}
+.eyelashes__box-description{
+    margin-top:20px;
+}
+
+.eyelashes__box-master-price-number{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top:20px;
+}
+//manicure
+.manicure{
+    background:#c6fc05;
+    padding:20px;
+    .manicure__inner{
+        display: flex;
+        justify-content:center;
+    }
+}
+.container__block{
+    background:#e6dddd;
+    
+}
+.block-price__item{
+    display: flex;
+    justify-content:space-between;
+    margin:0 15px;
+}
+.block-price__description{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom:20px;
+}
+.block-price__number{
+    margin-bottom:20px;
+}
+.block-container-price-item{
+    display: flex;
+    justify-content:center;
+}
+.item__left,
+.item-right{
+    background:#e6dddd;
+}
+.block-container-price-item{
+    background:#c6fc05;
+}
+@media(max-width:770px){
+    .eyelashes__box{
+        display:none;
+    }
+    .price-blokc-mobail-eyelashes-container{
+        display:block;
+    }
+    .block-container-price-item{
+        flex-direction:column;
+    }
+}
+@media(max-width:600px){
+    .manicure__inner{
+        flex-direction:column;
+    }
+}
